@@ -1,0 +1,20 @@
+{
+  "name": "offers-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/index.ts",
+    "update": "ts-node ./src/update.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.3.1",
+    "slonik": "^34.1.0",
+    "ts-node": "^10.9.1"
+  }
+}
